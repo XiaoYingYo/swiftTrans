@@ -101,10 +101,6 @@ Core DOM processing class:
 - Google Translate: `https://translate.google.com/translate_a/t`
 - Bing Translator: `https://www.bing.com/translator/api/translate/v3`
 
-## License
-
-Please refer to the LICENSE file
-
 ## Contributing
 
 Issues and Pull Requests are welcome

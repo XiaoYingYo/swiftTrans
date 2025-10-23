@@ -102,10 +102,6 @@ DOM处理核心类：
 - Google Translate: `https://translate.google.com/translate_a/t`
 - Bing Translator: `https://www.bing.com/translator/api/translate/v3`
 
-## 许可证
-
-请查看LICENSE文件
-
 ## 贡献
 
 欢迎提交Issue和Pull Request
