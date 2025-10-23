@@ -28,7 +28,14 @@ A lightweight Chrome browser extension for full-page translation, supporting Goo
 
 - Right-click menu to select "Translate Page"/"Restore Original" to toggle translation state
 - Right-click menu "Auto Translate" to add current domain to whitelist
-- Click extension icon to open settings page and configure options
+
+## Screenshots
+
+![1](./screenshots/1.png)
+
+![2](./screenshots/2.png)
+
+![3](./screenshots/3.png)
 
 ## Core Modules
 

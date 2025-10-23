@@ -30,6 +30,14 @@
 - 右键菜单"自动翻译"将当前域名加入白名单
 - 点击扩展图标打开设置页面配置选项
 
+## 截图预览
+
+![1](./screenshots/1.png)
+
+![2](./screenshots/2.png)
+
+![3](./screenshots/3.png)
+
 ## 核心模块
 
 ### background.js
