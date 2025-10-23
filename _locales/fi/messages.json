@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "välitön käännös"
+  },
+  "extensionDescription": {
+    "message": "Kevyt koko sivun käännöslaajennus, tukee Googlen ja Bingin käännöskoneita"
+  },
+  "settingsTitle": {
+    "message": "Pikakäännösasetukset"
+  },
+  "labelEngine": {
+    "message": "käännöskone"
+  },
+  "labelLanguage": {
+    "message": "kohdekieli"
+  },
+  "labelDomains": {
+    "message": "Käännä sivustot automaattisesti"
+  },
+  "labelCache": {
+    "message": "Välimuistin hallinta"
+  },
+  "labelCacheSize": {
+    "message": "välimuistin koko"
+  },
+  "placeholderDomain": {
+    "message": "Tuki erän lisäämiseen:\n1. Taulukkomuoto: ['domain1.com','domain2.com']\n2. Yksi riviä kohden: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Lisää"
+  },
+  "btnAddCurrent": {
+    "message": "Lisää nykyinen sivusto"
+  },
+  "btnClearCache": {
+    "message": "Tyhjennä kaikki välimuisti"
+  },
+  "btnDelete": {
+    "message": "poistaa"
+  },
+  "msgNoDomains": {
+    "message": "Tällä hetkellä ei ole automaattisen käännössivustoa"
+  },
+  "msgCalculating": {
+    "message": "Lasketaan..."
+  },
+  "msgArrayError": {
+    "message": "Taulukon muotovirhe"
+  },
+  "placeholderFilterDomain": {
+    "message": "Suodata verkkotunnusten nimet..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Ei vastaavaa verkkotunnuksen nimeä"
+  },
+  "contextMenuTranslate": {
+    "message": "Käännä koko sivu"
+  },
+  "contextMenuRestore": {
+    "message": "Palauta alkuperäinen teksti"
+  },
+  "contextMenuAddDomain": {
+    "message": "automaattinen käännös"
+  },
+  "tabGeneral": {
+    "message": "Yleiset asetukset"
+  },
+  "tabDomains": {
+    "message": "verkkosivustojen luettelo"
+  },
+  "tabFilters": {
+    "message": "solmusuodatin"
+  },
+  "labelGlobalFilters": {
+    "message": "Yleiset suodatussäännöt"
+  },
+  "labelDomainFilters": {
+    "message": "Verkkotunnuskohtaiset säännöt"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Anna yleiset valitsimet, yksi kullekin riville"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Anna verkkotunnuksen nimi, kuten www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Anna verkkotunnuksen valitsin, yksi kullekin riville"
+  },
+  "btnAddUpdate": {
+    "message": "lisää/päivitä"
+  },
+  "btnAddDefaultRules": {
+    "message": "Lisää perussäännöt"
+  },
+  "msgDomainRequired": {
+    "message": "Anna verkkotunnuksen nimi"
+  }
+}

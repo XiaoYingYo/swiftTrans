@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "การแปลทันที"
+  },
+  "extensionDescription": {
+    "message": "ส่วนขยายการแปลแบบเต็มหน้าน้ำหนักเบา รองรับเครื่องมือแปลของ Google และ Bing"
+  },
+  "settingsTitle": {
+    "message": "การตั้งค่าการแปลทันที"
+  },
+  "labelEngine": {
+    "message": "เครื่องมือแปล"
+  },
+  "labelLanguage": {
+    "message": "ภาษาเป้าหมาย"
+  },
+  "labelDomains": {
+    "message": "แปลเว็บไซต์โดยอัตโนมัติ"
+  },
+  "labelCache": {
+    "message": "การจัดการแคช"
+  },
+  "labelCacheSize": {
+    "message": "ขนาดแคช"
+  },
+  "placeholderDomain": {
+    "message": "รองรับการเพิ่มแบทช์:\n1. รูปแบบอาร์เรย์: ['domain1.com','domain2.com']\n2. หนึ่งรายการต่อบรรทัด: domain1.com\nโดเมน2.com"
+  },
+  "btnAdd": {
+    "message": "เพิ่มไปที่"
+  },
+  "btnAddCurrent": {
+    "message": "เพิ่มไซต์ปัจจุบัน"
+  },
+  "btnClearCache": {
+    "message": "ล้างแคชทั้งหมด"
+  },
+  "btnDelete": {
+    "message": "ลบ"
+  },
+  "msgNoDomains": {
+    "message": "ขณะนี้ไม่มีเว็บไซต์การแปลอัตโนมัติ"
+  },
+  "msgCalculating": {
+    "message": "กำลังคำนวณ..."
+  },
+  "msgArrayError": {
+    "message": "ข้อผิดพลาดของรูปแบบอาร์เรย์"
+  },
+  "placeholderFilterDomain": {
+    "message": "กรองชื่อโดเมน..."
+  },
+  "msgNoMatchDomains": {
+    "message": "ไม่มีชื่อโดเมนที่ตรงกัน"
+  },
+  "contextMenuTranslate": {
+    "message": "แปลทั้งหน้า"
+  },
+  "contextMenuRestore": {
+    "message": "คืนค่าข้อความต้นฉบับ"
+  },
+  "contextMenuAddDomain": {
+    "message": "การแปลอัตโนมัติ"
+  },
+  "tabGeneral": {
+    "message": "การตั้งค่าทั่วไป"
+  },
+  "tabDomains": {
+    "message": "รายการเว็บไซต์"
+  },
+  "tabFilters": {
+    "message": "ตัวกรองโหนด"
+  },
+  "labelGlobalFilters": {
+    "message": "กฎการกรองสากล"
+  },
+  "labelDomainFilters": {
+    "message": "กฎเฉพาะชื่อโดเมน"
+  },
+  "placeholderGlobalFilter": {
+    "message": "ป้อนตัวเลือกร่วม หนึ่งรายการต่อบรรทัด"
+  },
+  "placeholderDomainForFilter": {
+    "message": "ป้อนชื่อโดเมน เช่น www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "ป้อนตัวเลือกสำหรับชื่อโดเมน หนึ่งรายการต่อบรรทัด"
+  },
+  "btnAddUpdate": {
+    "message": "เพิ่ม/อัพเดต"
+  },
+  "btnAddDefaultRules": {
+    "message": "เพิ่มกฎพื้นฐาน"
+  },
+  "msgDomainRequired": {
+    "message": "กรุณากรอกชื่อโดเมน"
+  }
+}

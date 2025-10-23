@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "øjeblikkelig oversættelse"
+  },
+  "extensionDescription": {
+    "message": "Letvægts helsides oversættelsesudvidelse, understøtter Google og Bing oversættelsesmaskiner"
+  },
+  "settingsTitle": {
+    "message": "Indstillinger for øjeblikkelig oversættelse"
+  },
+  "labelEngine": {
+    "message": "oversættelsesmotor"
+  },
+  "labelLanguage": {
+    "message": "målsprog"
+  },
+  "labelDomains": {
+    "message": "Oversæt automatisk websteder"
+  },
+  "labelCache": {
+    "message": "Cachehåndtering"
+  },
+  "labelCacheSize": {
+    "message": "cache størrelse"
+  },
+  "placeholderDomain": {
+    "message": "Støt batchtilsætning:\n1. Matrixformat: ['domain1.com','domain2.com']\n2. En pr. linje: domæne1.com\ndomæne2.com"
+  },
+  "btnAdd": {
+    "message": "Tilføj til"
+  },
+  "btnAddCurrent": {
+    "message": "Tilføj nuværende websted"
+  },
+  "btnClearCache": {
+    "message": "Ryd al cache"
+  },
+  "btnDelete": {
+    "message": "slette"
+  },
+  "msgNoDomains": {
+    "message": "Der er i øjeblikket ingen hjemmeside for automatisk oversættelse"
+  },
+  "msgCalculating": {
+    "message": "Beregner..."
+  },
+  "msgArrayError": {
+    "message": "Array-formatfejl"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrer domænenavne..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Intet matchende domænenavn"
+  },
+  "contextMenuTranslate": {
+    "message": "Oversæt hele siden"
+  },
+  "contextMenuRestore": {
+    "message": "Gendan original tekst"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatisk oversættelse"
+  },
+  "tabGeneral": {
+    "message": "Generelle indstillinger"
+  },
+  "tabDomains": {
+    "message": "hjemmeside liste"
+  },
+  "tabFilters": {
+    "message": "node filter"
+  },
+  "labelGlobalFilters": {
+    "message": "Globale filtreringsregler"
+  },
+  "labelDomainFilters": {
+    "message": "Domænenavnsspecifikke regler"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Indtast globale vælgere, én pr. linje"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Indtast domænenavnet, f.eks. www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Indtast vælgeren for domænenavnet, en pr. linje"
+  },
+  "btnAddUpdate": {
+    "message": "tilføje/opdatere"
+  },
+  "btnAddDefaultRules": {
+    "message": "Tilføj grundlæggende regler"
+  },
+  "msgDomainRequired": {
+    "message": "Indtast venligst domænenavn"
+  }
+}

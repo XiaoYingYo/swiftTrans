@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "즉석 번역"
+  },
+  "extensionDescription": {
+    "message": "경량 전체 페이지 번역 확장 프로그램, Google 및 Bing 번역 엔진 지원"
+  },
+  "settingsTitle": {
+    "message": "즉석 번역 설정"
+  },
+  "labelEngine": {
+    "message": "번역 엔진"
+  },
+  "labelLanguage": {
+    "message": "대상 언어"
+  },
+  "labelDomains": {
+    "message": "웹사이트 자동 번역"
+  },
+  "labelCache": {
+    "message": "캐시 관리"
+  },
+  "labelCacheSize": {
+    "message": "캐시 크기"
+  },
+  "placeholderDomain": {
+    "message": "일괄 추가 지원:\n1. 배열 형식: ['domain1.com','domain2.com']\n2. 한 줄에 하나씩: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "다음에 추가"
+  },
+  "btnAddCurrent": {
+    "message": "현재 사이트 추가"
+  },
+  "btnClearCache": {
+    "message": "모든 캐시 지우기"
+  },
+  "btnDelete": {
+    "message": "삭제"
+  },
+  "msgNoDomains": {
+    "message": "현재 자동번역 사이트가 없습니다."
+  },
+  "msgCalculating": {
+    "message": "계산 중..."
+  },
+  "msgArrayError": {
+    "message": "배열 형식 오류"
+  },
+  "placeholderFilterDomain": {
+    "message": "도메인 이름 필터링..."
+  },
+  "msgNoMatchDomains": {
+    "message": "일치하는 도메인 이름이 없습니다."
+  },
+  "contextMenuTranslate": {
+    "message": "전체 페이지 번역"
+  },
+  "contextMenuRestore": {
+    "message": "원본 텍스트 복원"
+  },
+  "contextMenuAddDomain": {
+    "message": "자동 번역"
+  },
+  "tabGeneral": {
+    "message": "일반 설정"
+  },
+  "tabDomains": {
+    "message": "웹사이트 목록"
+  },
+  "tabFilters": {
+    "message": "노드 필터"
+  },
+  "labelGlobalFilters": {
+    "message": "전역 필터링 규칙"
+  },
+  "labelDomainFilters": {
+    "message": "도메인 이름별 규칙"
+  },
+  "placeholderGlobalFilter": {
+    "message": "전역 선택기를 한 줄에 하나씩 입력하세요."
+  },
+  "placeholderDomainForFilter": {
+    "message": "www.google.com과 같은 도메인 이름을 입력하세요."
+  },
+  "placeholderDomainFilter": {
+    "message": "도메인 이름 선택기를 한 줄에 하나씩 입력하세요."
+  },
+  "btnAddUpdate": {
+    "message": "추가/업데이트"
+  },
+  "btnAddDefaultRules": {
+    "message": "기본 규칙 추가"
+  },
+  "msgDomainRequired": {
+    "message": "도메인 이름을 입력하세요."
+  }
+}

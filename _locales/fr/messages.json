@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "traduction instantanée"
+  },
+  "extensionDescription": {
+    "message": "Extension de traduction légère pleine page, prend en charge les moteurs de traduction Google et Bing"
+  },
+  "settingsTitle": {
+    "message": "Paramètres de traduction instantanée"
+  },
+  "labelEngine": {
+    "message": "moteur de traduction"
+  },
+  "labelLanguage": {
+    "message": "langue cible"
+  },
+  "labelDomains": {
+    "message": "Traduire automatiquement des sites Web"
+  },
+  "labelCache": {
+    "message": "Gestion du cache"
+  },
+  "labelCacheSize": {
+    "message": "taille du cache"
+  },
+  "placeholderDomain": {
+    "message": "Ajout de lots de support :\n1. Format du tableau : ['domain1.com','domain2.com']\n2. Un par ligne : domain1.com\ndomaine2.com"
+  },
+  "btnAdd": {
+    "message": "Ajouter à"
+  },
+  "btnAddCurrent": {
+    "message": "Ajouter le site actuel"
+  },
+  "btnClearCache": {
+    "message": "Effacer tout le cache"
+  },
+  "btnDelete": {
+    "message": "supprimer"
+  },
+  "msgNoDomains": {
+    "message": "Il n'existe actuellement aucun site de traduction automatique"
+  },
+  "msgCalculating": {
+    "message": "Calculateur..."
+  },
+  "msgArrayError": {
+    "message": "Erreur de format de tableau"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrer les noms de domaine..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Aucun nom de domaine correspondant"
+  },
+  "contextMenuTranslate": {
+    "message": "Traduire la page entière"
+  },
+  "contextMenuRestore": {
+    "message": "Restaurer le texte original"
+  },
+  "contextMenuAddDomain": {
+    "message": "traduction automatique"
+  },
+  "tabGeneral": {
+    "message": "Paramètres généraux"
+  },
+  "tabDomains": {
+    "message": "liste de sites Web"
+  },
+  "tabFilters": {
+    "message": "filtre de nœud"
+  },
+  "labelGlobalFilters": {
+    "message": "Règles de filtrage globales"
+  },
+  "labelDomainFilters": {
+    "message": "Règles spécifiques au nom de domaine"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Entrez les sélecteurs globaux, un par ligne"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Saisissez le nom de domaine, tel que www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Entrez le sélecteur du nom de domaine, un par ligne"
+  },
+  "btnAddUpdate": {
+    "message": "ajouter/mettre à jour"
+  },
+  "btnAddDefaultRules": {
+    "message": "Ajouter des règles de base"
+  },
+  "msgDomainRequired": {
+    "message": "Veuillez entrer le nom de domaine"
+  }
+}

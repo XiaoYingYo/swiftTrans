@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "natychmiastowe tłumaczenie"
+  },
+  "extensionDescription": {
+    "message": "Lekkie rozszerzenie do tłumaczenia na całą stronę, obsługuje silniki tłumaczeniowe Google i Bing"
+  },
+  "settingsTitle": {
+    "message": "Natychmiastowe ustawienia tłumaczenia"
+  },
+  "labelEngine": {
+    "message": "silnik tłumaczący"
+  },
+  "labelLanguage": {
+    "message": "język docelowy"
+  },
+  "labelDomains": {
+    "message": "Automatycznie tłumacz strony internetowe"
+  },
+  "labelCache": {
+    "message": "Zarządzanie pamięcią podręczną"
+  },
+  "labelCacheSize": {
+    "message": "rozmiar pamięci podręcznej"
+  },
+  "placeholderDomain": {
+    "message": "Wsparcie dodawania partii:\n1. Format tablicy: ['domena1.com','domena2.com']\n2. Po jednym w wierszu: domena1.com\ndomena2.com"
+  },
+  "btnAdd": {
+    "message": "Dodaj do"
+  },
+  "btnAddCurrent": {
+    "message": "Dodaj bieżącą witrynę"
+  },
+  "btnClearCache": {
+    "message": "Wyczyść całą pamięć podręczną"
+  },
+  "btnDelete": {
+    "message": "usuwać"
+  },
+  "msgNoDomains": {
+    "message": "Obecnie nie ma witryny z automatycznymi tłumaczeniami"
+  },
+  "msgCalculating": {
+    "message": "Obliczenie..."
+  },
+  "msgArrayError": {
+    "message": "Błąd formatu tablicy"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtruj nazwy domen..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Brak pasującej nazwy domeny"
+  },
+  "contextMenuTranslate": {
+    "message": "Przetłumacz całą stronę"
+  },
+  "contextMenuRestore": {
+    "message": "Przywróć oryginalny tekst"
+  },
+  "contextMenuAddDomain": {
+    "message": "tłumaczenie automatyczne"
+  },
+  "tabGeneral": {
+    "message": "Ustawienia ogólne"
+  },
+  "tabDomains": {
+    "message": "lista stron internetowych"
+  },
+  "tabFilters": {
+    "message": "filtr węzłów"
+  },
+  "labelGlobalFilters": {
+    "message": "Globalne reguły filtrowania"
+  },
+  "labelDomainFilters": {
+    "message": "Zasady specyficzne dla nazwy domeny"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Wprowadź selektory globalne, po jednym w każdej linii"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Wpisz nazwę domeny, na przykład www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Wprowadź selektor nazwy domeny, po jednym w każdym wierszu"
+  },
+  "btnAddUpdate": {
+    "message": "dodaj/zaktualizuj"
+  },
+  "btnAddDefaultRules": {
+    "message": "Dodaj podstawowe zasady"
+  },
+  "msgDomainRequired": {
+    "message": "Proszę wpisać nazwę domeny"
+  }
+}

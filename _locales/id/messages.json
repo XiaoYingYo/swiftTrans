@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "terjemahan instan"
+  },
+  "extensionDescription": {
+    "message": "Ekstensi terjemahan satu halaman penuh yang ringan, mendukung mesin terjemahan Google dan Bing"
+  },
+  "settingsTitle": {
+    "message": "Pengaturan terjemahan instan"
+  },
+  "labelEngine": {
+    "message": "mesin terjemahan"
+  },
+  "labelLanguage": {
+    "message": "bahasa sasaran"
+  },
+  "labelDomains": {
+    "message": "Terjemahkan situs web secara otomatis"
+  },
+  "labelCache": {
+    "message": "Manajemen cache"
+  },
+  "labelCacheSize": {
+    "message": "ukuran cache"
+  },
+  "placeholderDomain": {
+    "message": "Mendukung penambahan batch:\n1. Format larik: ['domain1.com','domain2.com']\n2. Satu per baris: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Tambahkan ke"
+  },
+  "btnAddCurrent": {
+    "message": "Tambahkan situs saat ini"
+  },
+  "btnClearCache": {
+    "message": "Hapus semua cache"
+  },
+  "btnDelete": {
+    "message": "menghapus"
+  },
+  "msgNoDomains": {
+    "message": "Saat ini tidak ada situs web terjemahan otomatis"
+  },
+  "msgCalculating": {
+    "message": "Menghitung..."
+  },
+  "msgArrayError": {
+    "message": "Kesalahan format array"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filter nama domain..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Tidak ada nama domain yang cocok"
+  },
+  "contextMenuTranslate": {
+    "message": "Terjemahkan seluruh halaman"
+  },
+  "contextMenuRestore": {
+    "message": "Kembalikan teks asli"
+  },
+  "contextMenuAddDomain": {
+    "message": "terjemahan otomatis"
+  },
+  "tabGeneral": {
+    "message": "Pengaturan umum"
+  },
+  "tabDomains": {
+    "message": "daftar situs web"
+  },
+  "tabFilters": {
+    "message": "penyaring simpul"
+  },
+  "labelGlobalFilters": {
+    "message": "Aturan penyaringan global"
+  },
+  "labelDomainFilters": {
+    "message": "Aturan khusus nama domain"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Masukkan penyeleksi global, satu per baris"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Masukkan nama domain, seperti www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Masukkan pemilih untuk nama domain, satu per baris"
+  },
+  "btnAddUpdate": {
+    "message": "menambah/memperbarui"
+  },
+  "btnAddDefaultRules": {
+    "message": "Tambahkan aturan dasar"
+  },
+  "msgDomainRequired": {
+    "message": "Silakan masukkan nama domain"
+  }
+}

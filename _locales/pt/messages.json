@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "tradução instantânea"
+  },
+  "extensionDescription": {
+    "message": "Extensão leve de tradução de página inteira, compatível com mecanismos de tradução Google e Bing"
+  },
+  "settingsTitle": {
+    "message": "Configurações de tradução instantânea"
+  },
+  "labelEngine": {
+    "message": "mecanismo de tradução"
+  },
+  "labelLanguage": {
+    "message": "idioma alvo"
+  },
+  "labelDomains": {
+    "message": "Traduzir sites automaticamente"
+  },
+  "labelCache": {
+    "message": "Gerenciamento de cache"
+  },
+  "labelCacheSize": {
+    "message": "tamanho do cache"
+  },
+  "placeholderDomain": {
+    "message": "Adição de lote de suporte:\n1. Formato da matriz: ['domínio1.com','domínio2.com']\n2. Um por linha: domínio1.com\ndomínio2.com"
+  },
+  "btnAdd": {
+    "message": "adicionar à"
+  },
+  "btnAddCurrent": {
+    "message": "Adicionar site atual"
+  },
+  "btnClearCache": {
+    "message": "Limpe todo o cache"
+  },
+  "btnDelete": {
+    "message": "excluir"
+  },
+  "msgNoDomains": {
+    "message": "Atualmente não há site de tradução automática"
+  },
+  "msgCalculating": {
+    "message": "Calculando..."
+  },
+  "msgArrayError": {
+    "message": "Erro no formato da matriz"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrar nomes de domínio..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Nenhum nome de domínio correspondente"
+  },
+  "contextMenuTranslate": {
+    "message": "Traduzir a página inteira"
+  },
+  "contextMenuRestore": {
+    "message": "Restaurar texto original"
+  },
+  "contextMenuAddDomain": {
+    "message": "tradução automática"
+  },
+  "tabGeneral": {
+    "message": "Configurações gerais"
+  },
+  "tabDomains": {
+    "message": "lista de sites"
+  },
+  "tabFilters": {
+    "message": "filtro de nó"
+  },
+  "labelGlobalFilters": {
+    "message": "Regras de filtragem globais"
+  },
+  "labelDomainFilters": {
+    "message": "Regras específicas de nomes de domínio"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Insira seletores globais, um por linha"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Insira o nome do domínio, como www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Insira o seletor para o nome de domínio, um por linha"
+  },
+  "btnAddUpdate": {
+    "message": "adicionar/atualizar"
+  },
+  "btnAddDefaultRules": {
+    "message": "Adicione regras básicas"
+  },
+  "msgDomainRequired": {
+    "message": "Por favor insira o nome de domínio"
+  }
+}

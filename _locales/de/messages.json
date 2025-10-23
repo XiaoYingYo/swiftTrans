@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "sofortige Übersetzung"
+  },
+  "extensionDescription": {
+    "message": "Leichte Ganzseiten-Übersetzungserweiterung, unterstützt Google- und Bing-Übersetzungs-Engines"
+  },
+  "settingsTitle": {
+    "message": "Sofortige Übersetzungseinstellungen"
+  },
+  "labelEngine": {
+    "message": "Übersetzungsmaschine"
+  },
+  "labelLanguage": {
+    "message": "Zielsprache"
+  },
+  "labelDomains": {
+    "message": "Websites automatisch übersetzen"
+  },
+  "labelCache": {
+    "message": "Cache-Verwaltung"
+  },
+  "labelCacheSize": {
+    "message": "Cache-Größe"
+  },
+  "placeholderDomain": {
+    "message": "Batch-Hinzufügen unterstützen:\n1. Array-Format: ['domain1.com', 'domain2.com']\n2. Eine pro Zeile: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Hinzufügen zu"
+  },
+  "btnAddCurrent": {
+    "message": "Aktuelle Site hinzufügen"
+  },
+  "btnClearCache": {
+    "message": "Leeren Sie den gesamten Cache"
+  },
+  "btnDelete": {
+    "message": "löschen"
+  },
+  "msgNoDomains": {
+    "message": "Derzeit gibt es keine Website für automatische Übersetzungen"
+  },
+  "msgCalculating": {
+    "message": "Berechnen..."
+  },
+  "msgArrayError": {
+    "message": "Fehler im Array-Format"
+  },
+  "placeholderFilterDomain": {
+    "message": "Domainnamen filtern..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Kein passender Domainname"
+  },
+  "contextMenuTranslate": {
+    "message": "Ganze Seite übersetzen"
+  },
+  "contextMenuRestore": {
+    "message": "Originaltext wiederherstellen"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatische Übersetzung"
+  },
+  "tabGeneral": {
+    "message": "Allgemeine Einstellungen"
+  },
+  "tabDomains": {
+    "message": "Website-Liste"
+  },
+  "tabFilters": {
+    "message": "Knotenfilter"
+  },
+  "labelGlobalFilters": {
+    "message": "Globale Filterregeln"
+  },
+  "labelDomainFilters": {
+    "message": "Spezifische Regeln für Domainnamen"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Geben Sie globale Selektoren ein, einen pro Zeile"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Geben Sie den Domainnamen ein, z. B. www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Geben Sie den Selektor für den Domänennamen ein, einen pro Zeile"
+  },
+  "btnAddUpdate": {
+    "message": "hinzufügen/aktualisieren"
+  },
+  "btnAddDefaultRules": {
+    "message": "Fügen Sie Grundregeln hinzu"
+  },
+  "msgDomainRequired": {
+    "message": "Bitte geben Sie den Domainnamen ein"
+  }
+}

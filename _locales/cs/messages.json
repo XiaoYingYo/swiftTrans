@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "okamžitý překlad"
+  },
+  "extensionDescription": {
+    "message": "Odlehčené rozšíření celostránkového překladu, podporuje překladatelské motory Google a Bing"
+  },
+  "settingsTitle": {
+    "message": "Nastavení okamžitého překladu"
+  },
+  "labelEngine": {
+    "message": "překladový motor"
+  },
+  "labelLanguage": {
+    "message": "cílový jazyk"
+  },
+  "labelDomains": {
+    "message": "Automaticky překládat webové stránky"
+  },
+  "labelCache": {
+    "message": "Správa mezipaměti"
+  },
+  "labelCacheSize": {
+    "message": "velikost mezipaměti"
+  },
+  "placeholderDomain": {
+    "message": "Podpora přidání dávky:\n1. Formát pole: ['domena1.com','domena2.com']\n2. Jeden na řádek: domain1.com\ndoména2.com"
+  },
+  "btnAdd": {
+    "message": "Přidat do"
+  },
+  "btnAddCurrent": {
+    "message": "Přidat aktuální web"
+  },
+  "btnClearCache": {
+    "message": "Vymazat veškerou mezipaměť"
+  },
+  "btnDelete": {
+    "message": "vymazat"
+  },
+  "msgNoDomains": {
+    "message": "V současné době neexistuje webová stránka s automatickým překladem"
+  },
+  "msgCalculating": {
+    "message": "Počítání..."
+  },
+  "msgArrayError": {
+    "message": "Chyba formátu pole"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrovat názvy domén..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Žádný odpovídající název domény"
+  },
+  "contextMenuTranslate": {
+    "message": "Přeložte celou stránku"
+  },
+  "contextMenuRestore": {
+    "message": "Obnovit původní text"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatický překlad"
+  },
+  "tabGeneral": {
+    "message": "Obecná nastavení"
+  },
+  "tabDomains": {
+    "message": "seznam webových stránek"
+  },
+  "tabFilters": {
+    "message": "filtr uzlu"
+  },
+  "labelGlobalFilters": {
+    "message": "Globální pravidla filtrování"
+  },
+  "labelDomainFilters": {
+    "message": "Pravidla specifická pro doménová jména"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Zadejte globální selektory, jeden na řádek"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Zadejte název domény, například www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Zadejte selektor názvu domény, jeden na řádek"
+  },
+  "btnAddUpdate": {
+    "message": "přidat/aktualizovat"
+  },
+  "btnAddDefaultRules": {
+    "message": "Přidejte základní pravidla"
+  },
+  "msgDomainRequired": {
+    "message": "Zadejte název domény"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "anında çeviri"
+  },
+  "extensionDescription": {
+    "message": "Hafif tam sayfa çeviri uzantısı, Google ve Bing çeviri motorlarını destekler"
+  },
+  "settingsTitle": {
+    "message": "Anında çeviri ayarları"
+  },
+  "labelEngine": {
+    "message": "çeviri motoru"
+  },
+  "labelLanguage": {
+    "message": "hedef dil"
+  },
+  "labelDomains": {
+    "message": "Web sitelerini otomatik olarak çevir"
+  },
+  "labelCache": {
+    "message": "Önbellek yönetimi"
+  },
+  "labelCacheSize": {
+    "message": "önbellek boyutu"
+  },
+  "placeholderDomain": {
+    "message": "Toplu ekleme desteği:\n1. Dizi formatı: ['alanadi1.com','alanadi2.com']\n2. Her satıra bir tane: domain1.com\nalan2.com"
+  },
+  "btnAdd": {
+    "message": "a ekle"
+  },
+  "btnAddCurrent": {
+    "message": "Mevcut siteyi ekle"
+  },
+  "btnClearCache": {
+    "message": "Tüm önbelleği temizle"
+  },
+  "btnDelete": {
+    "message": "silmek"
+  },
+  "msgNoDomains": {
+    "message": "Şu anda otomatik çeviri sitesi bulunmuyor"
+  },
+  "msgCalculating": {
+    "message": "Hesaplanıyor..."
+  },
+  "msgArrayError": {
+    "message": "Dizi biçimi hatası"
+  },
+  "placeholderFilterDomain": {
+    "message": "Alan adlarını filtrele..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Eşleşen alan adı yok"
+  },
+  "contextMenuTranslate": {
+    "message": "Tüm sayfayı çevir"
+  },
+  "contextMenuRestore": {
+    "message": "Orijinal metni geri yükle"
+  },
+  "contextMenuAddDomain": {
+    "message": "otomatik çeviri"
+  },
+  "tabGeneral": {
+    "message": "Genel ayarlar"
+  },
+  "tabDomains": {
+    "message": "web sitesi listesi"
+  },
+  "tabFilters": {
+    "message": "düğüm filtresi"
+  },
+  "labelGlobalFilters": {
+    "message": "Genel filtreleme kuralları"
+  },
+  "labelDomainFilters": {
+    "message": "Alan adına özel kurallar"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Her satıra bir tane gelecek şekilde genel seçicileri girin"
+  },
+  "placeholderDomainForFilter": {
+    "message": "www.google.com gibi alan adını girin"
+  },
+  "placeholderDomainFilter": {
+    "message": "Her satıra bir tane gelecek şekilde alan adı seçicisini girin"
+  },
+  "btnAddUpdate": {
+    "message": "ekle/güncelle"
+  },
+  "btnAddDefaultRules": {
+    "message": "Temel kurallar ekleyin"
+  },
+  "msgDomainRequired": {
+    "message": "Lütfen alan adını girin"
+  }
+}

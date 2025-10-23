@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "瞬译"
+  },
+  "extensionDescription": {
+    "message": "轻量级整页翻译扩展,支持 Google 和 Bing 翻译引擎"
+  },
+  "settingsTitle": {
+    "message": "瞬译设置"
+  },
+  "labelEngine": {
+    "message": "翻译引擎"
+  },
+  "labelLanguage": {
+    "message": "目标语言"
+  },
+  "labelDomains": {
+    "message": "自动翻译网站"
+  },
+  "labelCache": {
+    "message": "缓存管理"
+  },
+  "labelCacheSize": {
+    "message": "缓存大小"
+  },
+  "placeholderDomain": {
+    "message": "支持批量添加:\n1. 数组格式: ['domain1.com','domain2.com']\n2. 每行一个: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "添加"
+  },
+  "btnAddCurrent": {
+    "message": "添加当前站点"
+  },
+  "btnClearCache": {
+    "message": "清除全部缓存"
+  },
+  "btnDelete": {
+    "message": "删除"
+  },
+  "msgNoDomains": {
+    "message": "暂无自动翻译网站"
+  },
+  "msgCalculating": {
+    "message": "计算中..."
+  },
+  "msgArrayError": {
+    "message": "数组格式错误"
+  },
+  "placeholderFilterDomain": {
+    "message": "过滤域名..."
+  },
+  "msgNoMatchDomains": {
+    "message": "无匹配域名"
+  },
+  "contextMenuTranslate": {
+    "message": "翻译整页"
+  },
+  "contextMenuRestore": {
+    "message": "恢复原文"
+  },
+  "contextMenuAddDomain": {
+    "message": "自动翻译"
+  },
+  "tabGeneral": {
+    "message": "常规设置"
+  },
+  "tabDomains": {
+    "message": "网站列表"
+  },
+  "tabFilters": {
+    "message": "节点过滤器"
+  },
+  "labelGlobalFilters": {
+    "message": "全局过滤规则"
+  },
+  "labelDomainFilters": {
+    "message": "域名特定规则"
+  },
+  "placeholderGlobalFilter": {
+    "message": "输入全局选择器,每行一个"
+  },
+  "placeholderDomainForFilter": {
+    "message": "输入域名,如 www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "输入该域名的选择器,每行一个"
+  },
+  "btnAddUpdate": {
+    "message": "添加/更新"
+  },
+  "btnAddDefaultRules": {
+    "message": "添加基本规则"
+  },
+  "msgDomainRequired": {
+    "message": "请输入域名"
+  }
+}

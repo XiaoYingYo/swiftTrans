@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "瞬譯"
+  },
+  "extensionDescription": {
+    "message": "輕量級整頁翻譯擴展,支持 Google 和 Bing 翻譯引擎"
+  },
+  "settingsTitle": {
+    "message": "瞬譯設置"
+  },
+  "labelEngine": {
+    "message": "翻譯引擎"
+  },
+  "labelLanguage": {
+    "message": "目標語言"
+  },
+  "labelDomains": {
+    "message": "自動翻譯網站"
+  },
+  "labelCache": {
+    "message": "緩存管理"
+  },
+  "labelCacheSize": {
+    "message": "緩存大小"
+  },
+  "placeholderDomain": {
+    "message": "支持批量添加:\n1. 數組格式: ['domain1.com','domain2.com']\n2. 每行一個: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "添加"
+  },
+  "btnAddCurrent": {
+    "message": "添加當前站點"
+  },
+  "btnClearCache": {
+    "message": "清除全部緩存"
+  },
+  "btnDelete": {
+    "message": "刪除"
+  },
+  "msgNoDomains": {
+    "message": "暫無自動翻譯網站"
+  },
+  "msgCalculating": {
+    "message": "計算中..."
+  },
+  "msgArrayError": {
+    "message": "數組格式錯誤"
+  },
+  "placeholderFilterDomain": {
+    "message": "過濾域名..."
+  },
+  "msgNoMatchDomains": {
+    "message": "無匹配域名"
+  },
+  "contextMenuTranslate": {
+    "message": "翻譯整頁"
+  },
+  "contextMenuRestore": {
+    "message": "恢復原文"
+  },
+  "contextMenuAddDomain": {
+    "message": "自動翻譯"
+  },
+  "tabGeneral": {
+    "message": "常規設置"
+  },
+  "tabDomains": {
+    "message": "網站列表"
+  },
+  "tabFilters": {
+    "message": "節點過濾器"
+  },
+  "labelGlobalFilters": {
+    "message": "全局過濾規則"
+  },
+  "labelDomainFilters": {
+    "message": "域名特定規則"
+  },
+  "placeholderGlobalFilter": {
+    "message": "輸入全局選擇器,每行一個"
+  },
+  "placeholderDomainForFilter": {
+    "message": "輸入域名,如 www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "輸入該域名的選擇器,每行一個"
+  },
+  "btnAddUpdate": {
+    "message": "添加/更新"
+  },
+  "btnAddDefaultRules": {
+    "message": "添加基本​​規則"
+  },
+  "msgDomainRequired": {
+    "message": "請輸入域名"
+  }
+}

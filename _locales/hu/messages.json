@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "azonnali fordítás"
+  },
+  "extensionDescription": {
+    "message": "Könnyű, teljes oldalas fordítási bővítmény, támogatja a Google és a Bing fordítómotorokat"
+  },
+  "settingsTitle": {
+    "message": "Azonnali fordítási beállítások"
+  },
+  "labelEngine": {
+    "message": "fordítómotor"
+  },
+  "labelLanguage": {
+    "message": "célnyelv"
+  },
+  "labelDomains": {
+    "message": "Webhelyek automatikus fordítása"
+  },
+  "labelCache": {
+    "message": "Gyorsítótár kezelése"
+  },
+  "labelCacheSize": {
+    "message": "gyorsítótár mérete"
+  },
+  "placeholderDomain": {
+    "message": "Támogatja a köteg hozzáadását:\n1. Tömbformátum: ['domain1.com','domain2.com']\n2. Soronként egy: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Hozzáadás"
+  },
+  "btnAddCurrent": {
+    "message": "Aktuális webhely hozzáadása"
+  },
+  "btnClearCache": {
+    "message": "Törölje az összes gyorsítótárat"
+  },
+  "btnDelete": {
+    "message": "töröl"
+  },
+  "msgNoDomains": {
+    "message": "Jelenleg nincs automatikus fordítási webhely"
+  },
+  "msgCalculating": {
+    "message": "Számító..."
+  },
+  "msgArrayError": {
+    "message": "Tömbformátum hiba"
+  },
+  "placeholderFilterDomain": {
+    "message": "Domainnevek szűrése..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Nincs egyező domain név"
+  },
+  "contextMenuTranslate": {
+    "message": "Az egész oldal lefordítása"
+  },
+  "contextMenuRestore": {
+    "message": "Az eredeti szöveg visszaállítása"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatikus fordítás"
+  },
+  "tabGeneral": {
+    "message": "Általános beállítások"
+  },
+  "tabDomains": {
+    "message": "webhelyek listája"
+  },
+  "tabFilters": {
+    "message": "csomóponti szűrő"
+  },
+  "labelGlobalFilters": {
+    "message": "Globális szűrési szabályok"
+  },
+  "labelDomainFilters": {
+    "message": "Domainnév-specifikus szabályok"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Adjon meg globális választókat, soronként egyet"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Adja meg a domain nevet, például www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Írja be a domain név választóját, soronként egyet"
+  },
+  "btnAddUpdate": {
+    "message": "hozzáadás/frissítés"
+  },
+  "btnAddDefaultRules": {
+    "message": "Adjon hozzá alapvető szabályokat"
+  },
+  "msgDomainRequired": {
+    "message": "Kérjük, adja meg a domain nevet"
+  }
+}

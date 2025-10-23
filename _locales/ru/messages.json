@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "мгновенный перевод"
+  },
+  "extensionDescription": {
+    "message": "Легкое расширение для полностраничного перевода, поддерживает системы перевода Google и Bing."
+  },
+  "settingsTitle": {
+    "message": "Настройки мгновенного перевода"
+  },
+  "labelEngine": {
+    "message": "механизм перевода"
+  },
+  "labelLanguage": {
+    "message": "целевой язык"
+  },
+  "labelDomains": {
+    "message": "Автоматический перевод веб-сайтов"
+  },
+  "labelCache": {
+    "message": "Управление кэшем"
+  },
+  "labelCacheSize": {
+    "message": "размер кэша"
+  },
+  "placeholderDomain": {
+    "message": "Поддержка пакетного добавления:\n1. Формат массива: ['domain1.com','domain2.com']\n2. По одному в строке: домен1.com.\nдомен2.com"
+  },
+  "btnAdd": {
+    "message": "добавить в"
+  },
+  "btnAddCurrent": {
+    "message": "Добавить текущий сайт"
+  },
+  "btnClearCache": {
+    "message": "Очистить весь кеш"
+  },
+  "btnDelete": {
+    "message": "удалить"
+  },
+  "msgNoDomains": {
+    "message": "В настоящее время нет веб-сайта автоматического перевода."
+  },
+  "msgCalculating": {
+    "message": "Расчет..."
+  },
+  "msgArrayError": {
+    "message": "Ошибка формата массива"
+  },
+  "placeholderFilterDomain": {
+    "message": "Фильтровать доменные имена..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Нет подходящего доменного имени"
+  },
+  "contextMenuTranslate": {
+    "message": "Перевести всю страницу"
+  },
+  "contextMenuRestore": {
+    "message": "Восстановить исходный текст"
+  },
+  "contextMenuAddDomain": {
+    "message": "автоматический перевод"
+  },
+  "tabGeneral": {
+    "message": "Общие настройки"
+  },
+  "tabDomains": {
+    "message": "список веб-сайтов"
+  },
+  "tabFilters": {
+    "message": "фильтр узлов"
+  },
+  "labelGlobalFilters": {
+    "message": "Глобальные правила фильтрации"
+  },
+  "labelDomainFilters": {
+    "message": "Правила, специфичные для доменных имен"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Введите глобальные селекторы, по одному в строке."
+  },
+  "placeholderDomainForFilter": {
+    "message": "Введите имя домена, например www.google.com."
+  },
+  "placeholderDomainFilter": {
+    "message": "Введите селектор доменного имени, по одному в строке."
+  },
+  "btnAddUpdate": {
+    "message": "добавить/обновить"
+  },
+  "btnAddDefaultRules": {
+    "message": "Добавьте основные правила"
+  },
+  "msgDomainRequired": {
+    "message": "Пожалуйста, введите доменное имя"
+  }
+}

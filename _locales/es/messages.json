@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "traducción instantánea"
+  },
+  "extensionDescription": {
+    "message": "Extensión ligera de traducción de página completa, compatible con los motores de traducción de Google y Bing"
+  },
+  "settingsTitle": {
+    "message": "Configuración de traducción instantánea"
+  },
+  "labelEngine": {
+    "message": "motor de traducción"
+  },
+  "labelLanguage": {
+    "message": "lengua de llegada"
+  },
+  "labelDomains": {
+    "message": "Traducir sitios web automáticamente"
+  },
+  "labelCache": {
+    "message": "Gestión de caché"
+  },
+  "labelCacheSize": {
+    "message": "tamaño de caché"
+  },
+  "placeholderDomain": {
+    "message": "Admite adición de lotes:\n1. Formato de matriz: ['dominio1.com', 'dominio2.com']\n2. Uno por línea: dominio1.com\ndominio2.com"
+  },
+  "btnAdd": {
+    "message": "añadir"
+  },
+  "btnAddCurrent": {
+    "message": "Agregar sitio actual"
+  },
+  "btnClearCache": {
+    "message": "Borrar todo el caché"
+  },
+  "btnDelete": {
+    "message": "borrar"
+  },
+  "msgNoDomains": {
+    "message": "Actualmente no existe ningún sitio web de traducción automática."
+  },
+  "msgCalculating": {
+    "message": "Calculador..."
+  },
+  "msgArrayError": {
+    "message": "Error de formato de matriz"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrar nombres de dominio..."
+  },
+  "msgNoMatchDomains": {
+    "message": "No hay ningún nombre de dominio coincidente"
+  },
+  "contextMenuTranslate": {
+    "message": "Traducir toda la página"
+  },
+  "contextMenuRestore": {
+    "message": "Restaurar texto original"
+  },
+  "contextMenuAddDomain": {
+    "message": "traducción automática"
+  },
+  "tabGeneral": {
+    "message": "Configuraciones generales"
+  },
+  "tabDomains": {
+    "message": "lista de sitios web"
+  },
+  "tabFilters": {
+    "message": "filtro de nodo"
+  },
+  "labelGlobalFilters": {
+    "message": "Reglas de filtrado global"
+  },
+  "labelDomainFilters": {
+    "message": "Reglas específicas de nombres de dominio"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Ingrese selectores globales, uno por línea"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Ingrese el nombre de dominio, como www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Ingrese el selector para el nombre de dominio, uno por línea"
+  },
+  "btnAddUpdate": {
+    "message": "agregar/actualizar"
+  },
+  "btnAddDefaultRules": {
+    "message": "Agregar reglas básicas"
+  },
+  "msgDomainRequired": {
+    "message": "Por favor ingrese el nombre de dominio"
+  }
+}

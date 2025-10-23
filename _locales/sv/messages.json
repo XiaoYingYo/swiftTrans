@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "omedelbar översättning"
+  },
+  "extensionDescription": {
+    "message": "Lättviktig helsidesöversättningstillägg, stöder Google och Bing översättningsmotorer"
+  },
+  "settingsTitle": {
+    "message": "Inställningar för omedelbar översättning"
+  },
+  "labelEngine": {
+    "message": "översättningsmotor"
+  },
+  "labelLanguage": {
+    "message": "målspråk"
+  },
+  "labelDomains": {
+    "message": "Översätt webbplatser automatiskt"
+  },
+  "labelCache": {
+    "message": "Cachehantering"
+  },
+  "labelCacheSize": {
+    "message": "cachestorlek"
+  },
+  "placeholderDomain": {
+    "message": "Stöd tillägg av batch:\n1. Matrisformat: ['domain1.com','domain2.com']\n2. En per rad: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Lägg till"
+  },
+  "btnAddCurrent": {
+    "message": "Lägg till aktuell webbplats"
+  },
+  "btnClearCache": {
+    "message": "Rensa all cache"
+  },
+  "btnDelete": {
+    "message": "radera"
+  },
+  "msgNoDomains": {
+    "message": "Det finns för närvarande ingen webbplats för automatisk översättning"
+  },
+  "msgCalculating": {
+    "message": "Beräknande..."
+  },
+  "msgArrayError": {
+    "message": "Arrayformatfel"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrera domännamn..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Inget matchande domännamn"
+  },
+  "contextMenuTranslate": {
+    "message": "Översätt hela sidan"
+  },
+  "contextMenuRestore": {
+    "message": "Återställ originaltext"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatisk översättning"
+  },
+  "tabGeneral": {
+    "message": "Allmänna inställningar"
+  },
+  "tabDomains": {
+    "message": "webbplatslista"
+  },
+  "tabFilters": {
+    "message": "nodfilter"
+  },
+  "labelGlobalFilters": {
+    "message": "Globala filtreringsregler"
+  },
+  "labelDomainFilters": {
+    "message": "Domännamnsspecifika regler"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Ange globala väljare, en per rad"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Ange domännamnet, till exempel www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Ange väljaren för domännamnet, en per rad"
+  },
+  "btnAddUpdate": {
+    "message": "lägga till/uppdatera"
+  },
+  "btnAddDefaultRules": {
+    "message": "Lägg till grundläggande regler"
+  },
+  "msgDomainRequired": {
+    "message": "Vänligen ange domännamn"
+  }
+}

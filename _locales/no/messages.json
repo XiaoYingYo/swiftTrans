@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "umiddelbar oversettelse"
+  },
+  "extensionDescription": {
+    "message": "Lett helsides oversettelsesutvidelse, støtter Google og Bing oversettelsesmotorer"
+  },
+  "settingsTitle": {
+    "message": "Innstillinger for øyeblikkelig oversettelse"
+  },
+  "labelEngine": {
+    "message": "oversettelsesmotor"
+  },
+  "labelLanguage": {
+    "message": "målspråk"
+  },
+  "labelDomains": {
+    "message": "Oversett nettsteder automatisk"
+  },
+  "labelCache": {
+    "message": "Bufferhåndtering"
+  },
+  "labelCacheSize": {
+    "message": "cache-størrelse"
+  },
+  "placeholderDomain": {
+    "message": "Støtte batchtillegg:\n1. Matriseformat: ['domain1.com','domain2.com']\n2. En per linje: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Legg til"
+  },
+  "btnAddCurrent": {
+    "message": "Legg til gjeldende nettsted"
+  },
+  "btnClearCache": {
+    "message": "Tøm all buffer"
+  },
+  "btnDelete": {
+    "message": "slette"
+  },
+  "msgNoDomains": {
+    "message": "Det er for øyeblikket ingen nettside for automatisk oversettelse"
+  },
+  "msgCalculating": {
+    "message": "Beregner..."
+  },
+  "msgArrayError": {
+    "message": "Feil i matriseformat"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filtrer domenenavn..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Ingen samsvarende domenenavn"
+  },
+  "contextMenuTranslate": {
+    "message": "Oversett hele siden"
+  },
+  "contextMenuRestore": {
+    "message": "Gjenopprett originaltekst"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatisk oversettelse"
+  },
+  "tabGeneral": {
+    "message": "Generelle innstillinger"
+  },
+  "tabDomains": {
+    "message": "nettstedsliste"
+  },
+  "tabFilters": {
+    "message": "nodefilter"
+  },
+  "labelGlobalFilters": {
+    "message": "Globale filtreringsregler"
+  },
+  "labelDomainFilters": {
+    "message": "Domenenavnspesifikke regler"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Angi globale velgere, én per linje"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Skriv inn domenenavnet, for eksempel www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Skriv inn velgeren for domenenavnet, én per linje"
+  },
+  "btnAddUpdate": {
+    "message": "legge til/oppdatere"
+  },
+  "btnAddDefaultRules": {
+    "message": "Legg til grunnleggende regler"
+  },
+  "msgDomainRequired": {
+    "message": "Vennligst skriv inn domenenavn"
+  }
+}

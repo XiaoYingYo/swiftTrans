@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "الترجمة الفورية"
+  },
+  "extensionDescription": {
+    "message": "ملحق ترجمة خفيف الوزن للصفحة الكاملة، يدعم محركات الترجمة Google وBing"
+  },
+  "settingsTitle": {
+    "message": "إعدادات الترجمة الفورية"
+  },
+  "labelEngine": {
+    "message": "محرك الترجمة"
+  },
+  "labelLanguage": {
+    "message": "اللغة المستهدفة"
+  },
+  "labelDomains": {
+    "message": "ترجمة المواقع تلقائيا"
+  },
+  "labelCache": {
+    "message": "إدارة ذاكرة التخزين المؤقت"
+  },
+  "labelCacheSize": {
+    "message": "حجم ذاكرة التخزين المؤقت"
+  },
+  "placeholderDomain": {
+    "message": "دعم إضافة دفعة:\n1. تنسيق المصفوفة: ['domain1.com','domain2.com']\n2. واحد في كل سطر: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "اضف إليه"
+  },
+  "btnAddCurrent": {
+    "message": "إضافة الموقع الحالي"
+  },
+  "btnClearCache": {
+    "message": "مسح كافة ذاكرة التخزين المؤقت"
+  },
+  "btnDelete": {
+    "message": "يمسح"
+  },
+  "msgNoDomains": {
+    "message": "لا يوجد حاليا أي موقع للترجمة الآلية"
+  },
+  "msgCalculating": {
+    "message": "جارٍ الحساب..."
+  },
+  "msgArrayError": {
+    "message": "خطأ في تنسيق الصفيف"
+  },
+  "placeholderFilterDomain": {
+    "message": "تصفية أسماء النطاقات..."
+  },
+  "msgNoMatchDomains": {
+    "message": "لا يوجد اسم نطاق مطابق"
+  },
+  "contextMenuTranslate": {
+    "message": "ترجمة الصفحة بأكملها"
+  },
+  "contextMenuRestore": {
+    "message": "استعادة النص الأصلي"
+  },
+  "contextMenuAddDomain": {
+    "message": "الترجمة الآلية"
+  },
+  "tabGeneral": {
+    "message": "الإعدادات العامة"
+  },
+  "tabDomains": {
+    "message": "قائمة الموقع"
+  },
+  "tabFilters": {
+    "message": "مرشح العقدة"
+  },
+  "labelGlobalFilters": {
+    "message": "قواعد التصفية العالمية"
+  },
+  "labelDomainFilters": {
+    "message": "قواعد محددة لاسم المجال"
+  },
+  "placeholderGlobalFilter": {
+    "message": "أدخل المحددات العامة، واحدة في كل سطر"
+  },
+  "placeholderDomainForFilter": {
+    "message": "أدخل اسم النطاق، مثل www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "أدخل محدد اسم المجال، واحد في كل سطر"
+  },
+  "btnAddUpdate": {
+    "message": "إضافة/تحديث"
+  },
+  "btnAddDefaultRules": {
+    "message": "أضف القواعد الأساسية"
+  },
+  "msgDomainRequired": {
+    "message": "الرجاء إدخال اسم المجال"
+  }
+}

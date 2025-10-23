@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "στιγμιαία μετάφραση"
+  },
+  "extensionDescription": {
+    "message": "Ελαφριά επέκταση μετάφρασης πλήρους σελίδας, υποστηρίζει μηχανές μετάφρασης Google και Bing"
+  },
+  "settingsTitle": {
+    "message": "Ρυθμίσεις άμεσης μετάφρασης"
+  },
+  "labelEngine": {
+    "message": "μηχανή μετάφρασης"
+  },
+  "labelLanguage": {
+    "message": "γλώσσα-στόχος"
+  },
+  "labelDomains": {
+    "message": "Αυτόματη μετάφραση ιστότοπων"
+  },
+  "labelCache": {
+    "message": "Διαχείριση κρυφής μνήμης"
+  },
+  "labelCacheSize": {
+    "message": "μέγεθος της κρυφής μνήμης"
+  },
+  "placeholderDomain": {
+    "message": "Υποστήριξη προσθήκης παρτίδας:\n1. Μορφή πίνακα: ['domain1.com','domain2.com']\n2. Ένα ανά γραμμή: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Προσθήκη σε"
+  },
+  "btnAddCurrent": {
+    "message": "Προσθήκη τρέχοντος ιστότοπου"
+  },
+  "btnClearCache": {
+    "message": "Εκκαθάριση όλης της προσωρινής μνήμης"
+  },
+  "btnDelete": {
+    "message": "διαγράφω"
+  },
+  "msgNoDomains": {
+    "message": "Αυτήν τη στιγμή δεν υπάρχει ιστότοπος αυτόματης μετάφρασης"
+  },
+  "msgCalculating": {
+    "message": "Υπολογιστικός..."
+  },
+  "msgArrayError": {
+    "message": "Σφάλμα μορφής πίνακα"
+  },
+  "placeholderFilterDomain": {
+    "message": "Φιλτράρισμα ονομάτων τομέα..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Δεν υπάρχει αντίστοιχο όνομα τομέα"
+  },
+  "contextMenuTranslate": {
+    "message": "Μετάφραση ολόκληρης της σελίδας"
+  },
+  "contextMenuRestore": {
+    "message": "Επαναφορά αρχικού κειμένου"
+  },
+  "contextMenuAddDomain": {
+    "message": "αυτόματη μετάφραση"
+  },
+  "tabGeneral": {
+    "message": "Γενικές ρυθμίσεις"
+  },
+  "tabDomains": {
+    "message": "λίστα ιστοτόπων"
+  },
+  "tabFilters": {
+    "message": "φίλτρο κόμβου"
+  },
+  "labelGlobalFilters": {
+    "message": "Παγκόσμιοι κανόνες φιλτραρίσματος"
+  },
+  "labelDomainFilters": {
+    "message": "Ειδικοί κανόνες για το όνομα τομέα"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Εισαγάγετε καθολικούς επιλογείς, έναν ανά γραμμή"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Εισαγάγετε το όνομα τομέα, όπως www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Εισαγάγετε τον επιλογέα για το όνομα τομέα, ένα ανά γραμμή"
+  },
+  "btnAddUpdate": {
+    "message": "προσθήκη/ενημέρωση"
+  },
+  "btnAddDefaultRules": {
+    "message": "Προσθέστε βασικούς κανόνες"
+  },
+  "msgDomainRequired": {
+    "message": "Εισαγάγετε όνομα τομέα"
+  }
+}

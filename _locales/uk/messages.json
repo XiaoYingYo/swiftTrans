@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "миттєвий переклад"
+  },
+  "extensionDescription": {
+    "message": "Легке повносторінкове розширення перекладу, підтримує механізми перекладу Google і Bing"
+  },
+  "settingsTitle": {
+    "message": "Налаштування миттєвого перекладу"
+  },
+  "labelEngine": {
+    "message": "механізм перекладу"
+  },
+  "labelLanguage": {
+    "message": "цільова мова"
+  },
+  "labelDomains": {
+    "message": "Автоматичний переклад веб-сайтів"
+  },
+  "labelCache": {
+    "message": "Керування кешем"
+  },
+  "labelCacheSize": {
+    "message": "розмір кешу"
+  },
+  "placeholderDomain": {
+    "message": "Підтримка пакетного додавання:\n1. Формат масиву: ['domain1.com','domain2.com']\n2. По одному на рядок: domain1.com\nдомен2.com"
+  },
+  "btnAdd": {
+    "message": "Додати до"
+  },
+  "btnAddCurrent": {
+    "message": "Додати поточний сайт"
+  },
+  "btnClearCache": {
+    "message": "Очистити весь кеш"
+  },
+  "btnDelete": {
+    "message": "видалити"
+  },
+  "msgNoDomains": {
+    "message": "Зараз немає веб-сайту автоматичного перекладу"
+  },
+  "msgCalculating": {
+    "message": "Розрахунок..."
+  },
+  "msgArrayError": {
+    "message": "Помилка формату масиву"
+  },
+  "placeholderFilterDomain": {
+    "message": "Фільтр доменних імен..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Немає відповідного доменного імені"
+  },
+  "contextMenuTranslate": {
+    "message": "Перекласти всю сторінку"
+  },
+  "contextMenuRestore": {
+    "message": "Відновити вихідний текст"
+  },
+  "contextMenuAddDomain": {
+    "message": "автоматичний переклад"
+  },
+  "tabGeneral": {
+    "message": "Загальні налаштування"
+  },
+  "tabDomains": {
+    "message": "список веб-сайтів"
+  },
+  "tabFilters": {
+    "message": "вузловий фільтр"
+  },
+  "labelGlobalFilters": {
+    "message": "Глобальні правила фільтрації"
+  },
+  "labelDomainFilters": {
+    "message": "Правила щодо доменного імені"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Введіть глобальні селектори, по одному на рядок"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Введіть ім’я домену, наприклад www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Введіть селектор імені домену, по одному на рядок"
+  },
+  "btnAddUpdate": {
+    "message": "додати/оновити"
+  },
+  "btnAddDefaultRules": {
+    "message": "Додайте основні правила"
+  },
+  "msgDomainRequired": {
+    "message": "Введіть доменне ім'я"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "onmiddellijke vertaling"
+  },
+  "extensionDescription": {
+    "message": "Lichtgewicht vertaalextensie voor volledige pagina's, ondersteunt vertaalmachines van Google en Bing"
+  },
+  "settingsTitle": {
+    "message": "Instellingen voor directe vertaling"
+  },
+  "labelEngine": {
+    "message": "vertaalmachine"
+  },
+  "labelLanguage": {
+    "message": "doeltaal"
+  },
+  "labelDomains": {
+    "message": "Vertaal websites automatisch"
+  },
+  "labelCache": {
+    "message": "Cachebeheer"
+  },
+  "labelCacheSize": {
+    "message": "cachegrootte"
+  },
+  "placeholderDomain": {
+    "message": "Ondersteuning batchtoevoeging:\n1. Array-indeling: ['domein1.com','domein2.com']\n2. Eén per regel: domein1.com\ndomein2.com"
+  },
+  "btnAdd": {
+    "message": "Toevoegen aan"
+  },
+  "btnAddCurrent": {
+    "message": "Voeg huidige site toe"
+  },
+  "btnClearCache": {
+    "message": "Wis alle cache"
+  },
+  "btnDelete": {
+    "message": "verwijderen"
+  },
+  "msgNoDomains": {
+    "message": "Er is momenteel geen website voor automatische vertaling"
+  },
+  "msgCalculating": {
+    "message": "Berekenen..."
+  },
+  "msgArrayError": {
+    "message": "Fout met array-indeling"
+  },
+  "placeholderFilterDomain": {
+    "message": "Domeinnamen filteren..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Geen overeenkomende domeinnaam"
+  },
+  "contextMenuTranslate": {
+    "message": "Vertaal hele pagina"
+  },
+  "contextMenuRestore": {
+    "message": "Originele tekst herstellen"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatische vertaling"
+  },
+  "tabGeneral": {
+    "message": "Algemene instellingen"
+  },
+  "tabDomains": {
+    "message": "website lijst"
+  },
+  "tabFilters": {
+    "message": "knooppuntfilter"
+  },
+  "labelGlobalFilters": {
+    "message": "Algemene filterregels"
+  },
+  "labelDomainFilters": {
+    "message": "Domeinnaamspecifieke regels"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Voer globale selectors in, één per regel"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Voer de domeinnaam in, bijvoorbeeld www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Voer de selector voor de domeinnaam in, één per regel"
+  },
+  "btnAddUpdate": {
+    "message": "toevoegen/bijwerken"
+  },
+  "btnAddDefaultRules": {
+    "message": "Voeg basisregels toe"
+  },
+  "msgDomainRequired": {
+    "message": "Voer een domeinnaam in"
+  }
+}

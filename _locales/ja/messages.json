@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "即時翻訳"
+  },
+  "extensionDescription": {
+    "message": "軽量の全ページ翻訳拡張機能、Google および Bing 翻訳エンジンをサポート"
+  },
+  "settingsTitle": {
+    "message": "即時翻訳の設定"
+  },
+  "labelEngine": {
+    "message": "翻訳エンジン"
+  },
+  "labelLanguage": {
+    "message": "ターゲット言語"
+  },
+  "labelDomains": {
+    "message": "ウェブサイトを自動翻訳"
+  },
+  "labelCache": {
+    "message": "キャッシュ管理"
+  },
+  "labelCacheSize": {
+    "message": "キャッシュサイズ"
+  },
+  "placeholderDomain": {
+    "message": "バッチ追加のサポート:\n1. 配列形式: ['domain1.com','domain2.com']\n2. 1 行に 1 つ:domain1.com\nドメイン2.com"
+  },
+  "btnAdd": {
+    "message": "添加"
+  },
+  "btnAddCurrent": {
+    "message": "現在のサイトを追加"
+  },
+  "btnClearCache": {
+    "message": "すべてのキャッシュをクリア"
+  },
+  "btnDelete": {
+    "message": "消去"
+  },
+  "msgNoDomains": {
+    "message": "現在、自動翻訳サイトはありません"
+  },
+  "msgCalculating": {
+    "message": "計算中..."
+  },
+  "msgArrayError": {
+    "message": "配列フォーマットエラー"
+  },
+  "placeholderFilterDomain": {
+    "message": "ドメイン名をフィルタリング..."
+  },
+  "msgNoMatchDomains": {
+    "message": "一致するドメイン名がありません"
+  },
+  "contextMenuTranslate": {
+    "message": "ページ全体を翻訳する"
+  },
+  "contextMenuRestore": {
+    "message": "元のテキストを復元する"
+  },
+  "contextMenuAddDomain": {
+    "message": "自動翻訳"
+  },
+  "tabGeneral": {
+    "message": "一般設定"
+  },
+  "tabDomains": {
+    "message": "ウェブサイトのリスト"
+  },
+  "tabFilters": {
+    "message": "ノードフィルター"
+  },
+  "labelGlobalFilters": {
+    "message": "グローバルフィルタリングルール"
+  },
+  "labelDomainFilters": {
+    "message": "ドメイン名固有のルール"
+  },
+  "placeholderGlobalFilter": {
+    "message": "グローバル セレクターを 1 行に 1 つずつ入力します"
+  },
+  "placeholderDomainForFilter": {
+    "message": "www.google.com などのドメイン名を入力します。"
+  },
+  "placeholderDomainFilter": {
+    "message": "ドメイン名のセレクターを 1 行に 1 つずつ入力します"
+  },
+  "btnAddUpdate": {
+    "message": "添加/更新"
+  },
+  "btnAddDefaultRules": {
+    "message": "基本的なルールを追加する"
+  },
+  "msgDomainRequired": {
+    "message": "ドメイン名を入力してください"
+  }
+}

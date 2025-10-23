@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "תרגום מיידי"
+  },
+  "extensionDescription": {
+    "message": "תוסף תרגום קל משקל לדף מלא, תומך במנועי תרגום של גוגל ובינג"
+  },
+  "settingsTitle": {
+    "message": "הגדרות תרגום מיידי"
+  },
+  "labelEngine": {
+    "message": "מנוע תרגום"
+  },
+  "labelLanguage": {
+    "message": "שפת היעד"
+  },
+  "labelDomains": {
+    "message": "תרגם אתרים באופן אוטומטי"
+  },
+  "labelCache": {
+    "message": "ניהול מטמון"
+  },
+  "labelCacheSize": {
+    "message": "גודל המטמון"
+  },
+  "placeholderDomain": {
+    "message": "תמיכה בתוספת אצווה:\n1. פורמט מערך: ['domain1.com','domain2.com']\n2. אחד בכל שורה: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "הוסף ל"
+  },
+  "btnAddCurrent": {
+    "message": "הוסף אתר נוכחי"
+  },
+  "btnClearCache": {
+    "message": "נקה את כל המטמון"
+  },
+  "btnDelete": {
+    "message": "לִמְחוֹק"
+  },
+  "msgNoDomains": {
+    "message": "כרגע אין אתר תרגום אוטומטי"
+  },
+  "msgCalculating": {
+    "message": "מחשב..."
+  },
+  "msgArrayError": {
+    "message": "שגיאה בפורמט מערך"
+  },
+  "placeholderFilterDomain": {
+    "message": "סינון שמות דומיין..."
+  },
+  "msgNoMatchDomains": {
+    "message": "אין שם דומיין תואם"
+  },
+  "contextMenuTranslate": {
+    "message": "תרגם עמוד שלם"
+  },
+  "contextMenuRestore": {
+    "message": "שחזר טקסט מקורי"
+  },
+  "contextMenuAddDomain": {
+    "message": "תרגום אוטומטי"
+  },
+  "tabGeneral": {
+    "message": "הגדרות כלליות"
+  },
+  "tabDomains": {
+    "message": "רשימת אתרים"
+  },
+  "tabFilters": {
+    "message": "מסנן צמתים"
+  },
+  "labelGlobalFilters": {
+    "message": "כללי סינון גלובליים"
+  },
+  "labelDomainFilters": {
+    "message": "כללים ספציפיים לשם דומיין"
+  },
+  "placeholderGlobalFilter": {
+    "message": "הזן בוררים גלובליים, אחד בכל שורה"
+  },
+  "placeholderDomainForFilter": {
+    "message": "הזן את שם הדומיין, כגון www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "הזן את הבורר עבור שם הדומיין, אחד בכל שורה"
+  },
+  "btnAddUpdate": {
+    "message": "להוסיף/לעדכן"
+  },
+  "btnAddDefaultRules": {
+    "message": "הוסף כללים בסיסיים"
+  },
+  "msgDomainRequired": {
+    "message": "נא להזין שם דומיין"
+  }
+}

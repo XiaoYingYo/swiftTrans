@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "instant translation"
+  },
+  "extensionDescription": {
+    "message": "Lightweight full-page translation extension, supports Google and Bing translation engines"
+  },
+  "settingsTitle": {
+    "message": "Instant translation settings"
+  },
+  "labelEngine": {
+    "message": "translation engine"
+  },
+  "labelLanguage": {
+    "message": "target language"
+  },
+  "labelDomains": {
+    "message": "Automatically translate websites"
+  },
+  "labelCache": {
+    "message": "Cache management"
+  },
+  "labelCacheSize": {
+    "message": "cache size"
+  },
+  "placeholderDomain": {
+    "message": "Support batch addition:\n1. Array format: ['domain1.com','domain2.com']\n2. One per line: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Add to"
+  },
+  "btnAddCurrent": {
+    "message": "Add current site"
+  },
+  "btnClearCache": {
+    "message": "Clear all cache"
+  },
+  "btnDelete": {
+    "message": "delete"
+  },
+  "msgNoDomains": {
+    "message": "There is currently no automatic translation website"
+  },
+  "msgCalculating": {
+    "message": "Calculating..."
+  },
+  "msgArrayError": {
+    "message": "Array format error"
+  },
+  "placeholderFilterDomain": {
+    "message": "Filter domain names..."
+  },
+  "msgNoMatchDomains": {
+    "message": "No matching domain name"
+  },
+  "contextMenuTranslate": {
+    "message": "Translate entire page"
+  },
+  "contextMenuRestore": {
+    "message": "Restore original text"
+  },
+  "contextMenuAddDomain": {
+    "message": "automatic translation"
+  },
+  "tabGeneral": {
+    "message": "General settings"
+  },
+  "tabDomains": {
+    "message": "website list"
+  },
+  "tabFilters": {
+    "message": "node filter"
+  },
+  "labelGlobalFilters": {
+    "message": "Global filtering rules"
+  },
+  "labelDomainFilters": {
+    "message": "Domain name specific rules"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Enter global selectors, one per line"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Enter the domain name, such as www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Enter the selector for the domain name, one per line"
+  },
+  "btnAddUpdate": {
+    "message": "add/update"
+  },
+  "msgDomainRequired": {
+    "message": "Please enter domain name"
+  },
+  "btnAddDefaultRules": {
+    "message": "Add basic rules"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "terjemahan segera"
+  },
+  "extensionDescription": {
+    "message": "Pelanjutan Terjemahan Penuh Lightweight, menyokong enjin terjemahan Google dan Bing"
+  },
+  "settingsTitle": {
+    "message": "Tetapan Terjemahan Segera"
+  },
+  "labelEngine": {
+    "message": "enjin terjemahan"
+  },
+  "labelLanguage": {
+    "message": "bahasa sasaran"
+  },
+  "labelDomains": {
+    "message": "Menerjemahkan laman web secara automatik"
+  },
+  "labelCache": {
+    "message": "Pengurusan Cache"
+  },
+  "labelCacheSize": {
+    "message": "saiz cache"
+  },
+  "placeholderDomain": {
+    "message": "Penambahan Batch Sokongan:\n1. Format Array: ['domain1.com', 'domain2.com']\n2. Satu setiap baris: domain1.com\ndomain2.com"
+  },
+  "btnAdd": {
+    "message": "Tambah ke"
+  },
+  "btnAddCurrent": {
+    "message": "Tambah tapak semasa"
+  },
+  "btnClearCache": {
+    "message": "Kosongkan semua cache"
+  },
+  "btnDelete": {
+    "message": "Padam"
+  },
+  "msgNoDomains": {
+    "message": "Pada masa ini tidak ada laman web terjemahan automatik"
+  },
+  "msgCalculating": {
+    "message": "Mengira ..."
+  },
+  "msgArrayError": {
+    "message": "Ralat format array"
+  },
+  "placeholderFilterDomain": {
+    "message": "Nama domain penapis ..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Tiada nama domain yang sepadan"
+  },
+  "contextMenuTranslate": {
+    "message": "Terjemahkan keseluruhan halaman"
+  },
+  "contextMenuRestore": {
+    "message": "Pulihkan teks asal"
+  },
+  "contextMenuAddDomain": {
+    "message": "terjemahan automatik"
+  },
+  "tabGeneral": {
+    "message": "Tetapan Umum"
+  },
+  "tabDomains": {
+    "message": "Senarai laman web"
+  },
+  "tabFilters": {
+    "message": "penapis nod"
+  },
+  "labelGlobalFilters": {
+    "message": "Peraturan penapisan global"
+  },
+  "labelDomainFilters": {
+    "message": "Peraturan khusus nama domain"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Masukkan pemilih global, satu setiap baris"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Masukkan nama domain, seperti www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Masukkan pemilih untuk nama domain, satu setiap baris"
+  },
+  "btnAddUpdate": {
+    "message": "tambah/kemas kini"
+  },
+  "btnAddDefaultRules": {
+    "message": "Tambah peraturan asas"
+  },
+  "msgDomainRequired": {
+    "message": "Sila masukkan nama domain"
+  }
+}

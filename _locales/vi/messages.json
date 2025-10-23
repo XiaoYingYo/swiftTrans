@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "dịch tức thời"
+  },
+  "extensionDescription": {
+    "message": "Tiện ích mở rộng dịch toàn trang nhẹ, hỗ trợ công cụ dịch Google và Bing"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt dịch tức thì"
+  },
+  "labelEngine": {
+    "message": "công cụ dịch thuật"
+  },
+  "labelLanguage": {
+    "message": "ngôn ngữ mục tiêu"
+  },
+  "labelDomains": {
+    "message": "Tự động dịch trang web"
+  },
+  "labelCache": {
+    "message": "Quản lý bộ đệm"
+  },
+  "labelCacheSize": {
+    "message": "kích thước bộ đệm"
+  },
+  "placeholderDomain": {
+    "message": "Hỗ trợ bổ sung hàng loạt:\n1. Định dạng mảng: ['domain1.com','domain2.com']\n2. Mỗi dòng một: domain1.com\ntên miền2.com"
+  },
+  "btnAdd": {
+    "message": "Thêm vào"
+  },
+  "btnAddCurrent": {
+    "message": "Thêm trang web hiện tại"
+  },
+  "btnClearCache": {
+    "message": "Xóa tất cả bộ nhớ đệm"
+  },
+  "btnDelete": {
+    "message": "xóa bỏ"
+  },
+  "msgNoDomains": {
+    "message": "Hiện tại chưa có trang web dịch tự động"
+  },
+  "msgCalculating": {
+    "message": "Đang tính..."
+  },
+  "msgArrayError": {
+    "message": "Lỗi định dạng mảng"
+  },
+  "placeholderFilterDomain": {
+    "message": "Lọc tên miền..."
+  },
+  "msgNoMatchDomains": {
+    "message": "Không có tên miền phù hợp"
+  },
+  "contextMenuTranslate": {
+    "message": "Dịch toàn bộ trang"
+  },
+  "contextMenuRestore": {
+    "message": "Khôi phục văn bản gốc"
+  },
+  "contextMenuAddDomain": {
+    "message": "dịch tự động"
+  },
+  "tabGeneral": {
+    "message": "Cài đặt chung"
+  },
+  "tabDomains": {
+    "message": "danh sách trang web"
+  },
+  "tabFilters": {
+    "message": "bộ lọc nút"
+  },
+  "labelGlobalFilters": {
+    "message": "Quy tắc lọc toàn cầu"
+  },
+  "labelDomainFilters": {
+    "message": "Quy định cụ thể về tên miền"
+  },
+  "placeholderGlobalFilter": {
+    "message": "Nhập bộ chọn chung, mỗi bộ chọn một dòng"
+  },
+  "placeholderDomainForFilter": {
+    "message": "Nhập tên miền, chẳng hạn như www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "Nhập bộ chọn cho tên miền, mỗi dòng một cái"
+  },
+  "btnAddUpdate": {
+    "message": "thêm/cập nhật"
+  },
+  "btnAddDefaultRules": {
+    "message": "Thêm các quy tắc cơ bản"
+  },
+  "msgDomainRequired": {
+    "message": "Vui lòng nhập tên miền"
+  }
+}

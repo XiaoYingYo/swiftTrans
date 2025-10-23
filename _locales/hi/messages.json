@@ -1,0 +1,98 @@
+{
+  "extensionName": {
+    "message": "तुरंत अनुवाद"
+  },
+  "extensionDescription": {
+    "message": "हल्के फुल-पेज अनुवाद एक्सटेंशन, Google और बिंग अनुवाद इंजन का समर्थन करता है"
+  },
+  "settingsTitle": {
+    "message": "त्वरित अनुवाद सेटिंग्स"
+  },
+  "labelEngine": {
+    "message": "अनुवाद इंजन"
+  },
+  "labelLanguage": {
+    "message": "लक्ष्य भाषा"
+  },
+  "labelDomains": {
+    "message": "वेबसाइटों का स्वचालित रूप से अनुवाद करें"
+  },
+  "labelCache": {
+    "message": "कैश प्रबंधन"
+  },
+  "labelCacheSize": {
+    "message": "कैचे आकार"
+  },
+  "placeholderDomain": {
+    "message": "समर्थन बैच जोड़:\n1. सरणी प्रारूप: ['domain1.com','domain2.com']\n2. प्रति पंक्ति एक: Domain1.com\nDomain2.com"
+  },
+  "btnAdd": {
+    "message": "इसमें जोड़ें"
+  },
+  "btnAddCurrent": {
+    "message": "वर्तमान साइट जोड़ें"
+  },
+  "btnClearCache": {
+    "message": "सारा कैश साफ़ करें"
+  },
+  "btnDelete": {
+    "message": "मिटाना"
+  },
+  "msgNoDomains": {
+    "message": "वर्तमान में कोई स्वचालित अनुवाद वेबसाइट नहीं है"
+  },
+  "msgCalculating": {
+    "message": "हिसाब लगाया जा रहा है..."
+  },
+  "msgArrayError": {
+    "message": "सारणी प्रारूप त्रुटि"
+  },
+  "placeholderFilterDomain": {
+    "message": "डोमेन नाम फ़िल्टर करें..."
+  },
+  "msgNoMatchDomains": {
+    "message": "कोई मेल खाता डोमेन नाम नहीं"
+  },
+  "contextMenuTranslate": {
+    "message": "पूरे पृष्ठ का अनुवाद करें"
+  },
+  "contextMenuRestore": {
+    "message": "मूल पाठ पुनर्स्थापित करें"
+  },
+  "contextMenuAddDomain": {
+    "message": "स्वचालित अनुवाद"
+  },
+  "tabGeneral": {
+    "message": "सामान्य सेटिंग्स"
+  },
+  "tabDomains": {
+    "message": "वेबसाइट सूची"
+  },
+  "tabFilters": {
+    "message": "नोड फ़िल्टर"
+  },
+  "labelGlobalFilters": {
+    "message": "वैश्विक फ़िल्टरिंग नियम"
+  },
+  "labelDomainFilters": {
+    "message": "डोमेन नाम विशिष्ट नियम"
+  },
+  "placeholderGlobalFilter": {
+    "message": "वैश्विक चयनकर्ता दर्ज करें, प्रति पंक्ति एक"
+  },
+  "placeholderDomainForFilter": {
+    "message": "डोमेन नाम दर्ज करें, जैसे www.google.com"
+  },
+  "placeholderDomainFilter": {
+    "message": "डोमेन नाम के लिए चयनकर्ता दर्ज करें, प्रति पंक्ति एक"
+  },
+  "btnAddUpdate": {
+    "message": "जोड़ें/अद्यतन करें"
+  },
+  "btnAddDefaultRules": {
+    "message": "बुनियादी नियम जोड़ें"
+  },
+  "msgDomainRequired": {
+    "message": "कृपया डोमेन नाम दर्ज करें"
+  }
+}
