@@ -1,5 +1,7 @@
 # 瞬译 (SwiftTrans) - 整页翻译扩展
 
+[English](README_EN.md) | 中文
+
 轻量级Chrome浏览器整页翻译扩展，支持Google和Bing翻译引擎。
 
 ## 功能特性
@@ -27,28 +29,6 @@
 - 右键菜单选择"翻译整页"/"恢复原文"切换翻译状态
 - 右键菜单"自动翻译"将当前域名加入白名单
 - 点击扩展图标打开设置页面配置选项
-
-## 项目结构
-
-```
-swiftTrans/
-├── manifest.json              扩展配置清单
-├── background.js              后台服务Worker
-├── content.js                 内容脚本入口
-├── lib/
-│   ├── storage.js            存储管理器
-│   ├── dom-processor.js      DOM节点处理器
-│   └── translator.js         翻译接口封装(需创建)
-├── settings/
-│   ├── settings.html         设置页面
-│   ├── settings.js           设置逻辑
-│   └── settings.css          设置样式
-├── _locales/
-│   └── zh_CN/
-│       └── messages.json     中文语言包
-└── icons/
-    └── icon128.png           扩展图标
-```
 
 ## 核心模块
 
