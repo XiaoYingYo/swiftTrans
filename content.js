@@ -1,5 +1,6 @@
 let isTranslating = false;
 let translatedNodes = [];
+let processedNodes = null;
 let mutationObserver = null;
 let domProcessor = null;
 let translator = null;
@@ -29,6 +30,10 @@ async function translateNodes(nodes) {
   const textsToTranslate = [];
   const nodesToUpdate = [];
   for (const node of nodes) {
+    if (processedNodes.has(node)) {
+      continue;
+    }
+    processedNodes.add(node);
     const text = node.textContent.trim();
     if (!text) {
       continue;
@@ -36,6 +41,7 @@ async function translateNodes(nodes) {
     const cached = await StorageManager.getCachedTranslation(text);
     if (cached) {
       domProcessor.updateNode(node, cached);
+      processedNodes.delete(node);
       translatedNodes.push(node);
     } else {
       textsToTranslate.push(text);
@@ -53,6 +59,7 @@ async function translateNodes(nodes) {
         const node = nodesToUpdate[i];
         domProcessor.removeIndicator(node);
         domProcessor.updateNode(node, translation);
+        processedNodes.delete(node);
         translatedNodes.push(node);
       }
     } catch (err) {
@@ -68,9 +75,8 @@ async function startTranslation() {
   await ensureModulesInitialized();
   isTranslating = true;
   translatedNodes = [];
+  processedNodes = new WeakSet();
   domProcessor.injectSpinnerStyles();
-  const initialNodes = domProcessor.collectNodes();
-  await translateNodes(initialNodes);
   mutationObserver = new MutationObserver(async (mutations) => {
     const freshNodes = [];
     for (const mutation of mutations) {
@@ -81,13 +87,16 @@ async function startTranslation() {
       });
     }
     if (freshNodes.length) {
-      await translateNodes(freshNodes);
+      // await translateNodes(freshNodes);
+      translateNodes(freshNodes);
     }
   });
   mutationObserver.observe(document.body, {
     childList: true,
     subtree: true,
   });
+  const initialNodes = domProcessor.collectNodes();
+  translateNodes(initialNodes);
   chrome.runtime.sendMessage({ type: 'UPDATE_MENU_STATE', isTranslating: true });
 }
 function stopTranslation() {
@@ -95,6 +104,7 @@ function stopTranslation() {
     return;
   }
   isTranslating = false;
+  processedNodes = null;
   if (domProcessor) {
     domProcessor.restoreAllNodes(translatedNodes);
   }
