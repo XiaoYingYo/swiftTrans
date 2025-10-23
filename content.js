@@ -40,6 +40,7 @@ async function translateNodes(nodes) {
     } else {
       textsToTranslate.push(text);
       nodesToUpdate.push(node);
+      domProcessor.addIndicator(node);
     }
   }
   if (textsToTranslate.length) {
@@ -49,11 +50,14 @@ async function translateNodes(nodes) {
         const text = textsToTranslate[i];
         const translation = translations[i];
         await StorageManager.saveCachedTranslation(text, translation);
-        domProcessor.updateNode(nodesToUpdate[i], translation);
-        translatedNodes.push(nodesToUpdate[i]);
+        const node = nodesToUpdate[i];
+        domProcessor.removeIndicator(node);
+        domProcessor.updateNode(node, translation);
+        translatedNodes.push(node);
       }
     } catch (err) {
       console.error('[SwiftTrans] Translation failed:', err);
+      nodesToUpdate.forEach((node) => domProcessor.removeIndicator(node));
     }
   }
 }
@@ -64,6 +68,7 @@ async function startTranslation() {
   await ensureModulesInitialized();
   isTranslating = true;
   translatedNodes = [];
+  domProcessor.injectSpinnerStyles();
   const initialNodes = domProcessor.collectNodes();
   await translateNodes(initialNodes);
   mutationObserver = new MutationObserver(async (mutations) => {
