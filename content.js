@@ -46,7 +46,7 @@ async function translateNodes(nodes) {
     } else {
       textsToTranslate.push(text);
       nodesToUpdate.push(node);
-      domProcessor.addIndicator(node);
+      // domProcessor.addIndicator(node);
     }
   }
   if (textsToTranslate.length) {
@@ -64,7 +64,7 @@ async function translateNodes(nodes) {
       }
     } catch (err) {
       console.error('[SwiftTrans] Translation failed:', err);
-      nodesToUpdate.forEach((node) => domProcessor.removeIndicator(node));
+      // nodesToUpdate.forEach((node) => domProcessor.removeIndicator(node));
     }
   }
 }
