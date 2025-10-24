@@ -57,7 +57,7 @@ async function translateNodes(nodes) {
         const translation = translations[i];
         await StorageManager.saveCachedTranslation(text, translation);
         const node = nodesToUpdate[i];
-        domProcessor.removeIndicator(node);
+        // domProcessor.removeIndicator(node);
         domProcessor.updateNode(node, translation);
         processedNodes.delete(node);
         translatedNodes.push(node);
