@@ -1,3 +1,4 @@
+console.log('[SwiftTrans] Content script loaded.');
 let isTranslating = false;
 let translatedNodes = [];
 let processedNodes = null;
