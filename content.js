@@ -38,14 +38,27 @@ async function translateTitle() {
     return;
   }
   try {
+    let newTitle = null;
     const cached = await StorageManager.getCachedTranslation(title);
     if (cached) {
-      document.title = cached;
+      newTitle = cached;
     } else {
       const [translatedTitle] = await translator.translateMany([title], 'auto', config.language);
       if (translatedTitle) {
         await StorageManager.saveCachedTranslation(title, translatedTitle);
-        document.title = translatedTitle;
+        newTitle = translatedTitle;
+      }
+    }
+    if (newTitle && document.title !== newTitle) {
+      if (titleObserver) {
+        titleObserver.disconnect();
+      }
+      document.title = newTitle;
+      if (titleObserver) {
+        const titleElement = document.querySelector('head > title');
+        if (titleElement) {
+          titleObserver.observe(titleElement, { childList: true });
+        }
       }
     }
   } catch (err) {
