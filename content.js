@@ -3,6 +3,8 @@ let isTranslating = false;
 let translatedNodes = [];
 let processedNodes = null;
 let mutationObserver = null;
+let titleObserver = null;
+let originalTitle = '';
 let domProcessor = null;
 let translator = null;
 let config = null;
@@ -25,6 +27,29 @@ async function init() {
     await startTranslation();
   } else {
     chrome.runtime.sendMessage({ type: 'UPDATE_MENU_STATE', isTranslating: false });
+  }
+}
+async function translateTitle() {
+  if (!isTranslating) {
+    return;
+  }
+  const title = document.title;
+  if (!title || !/\p{L}/u.test(title)) {
+    return;
+  }
+  try {
+    const cached = await StorageManager.getCachedTranslation(title);
+    if (cached) {
+      document.title = cached;
+    } else {
+      const [translatedTitle] = await translator.translateMany([title], 'auto', config.language);
+      if (translatedTitle) {
+        await StorageManager.saveCachedTranslation(title, translatedTitle);
+        document.title = translatedTitle;
+      }
+    }
+  } catch (err) {
+    console.error('[SwiftTrans] Title translation failed:', err);
   }
 }
 async function translateNodes(nodes) {
@@ -77,6 +102,8 @@ async function startTranslation() {
   isTranslating = true;
   translatedNodes = [];
   processedNodes = new WeakSet();
+  originalTitle = document.title;
+  translateTitle();
   domProcessor.injectSpinnerStyles();
   mutationObserver = new MutationObserver(async (mutations) => {
     const freshNodes = [];
@@ -96,6 +123,11 @@ async function startTranslation() {
     childList: true,
     subtree: true,
   });
+  const titleElement = document.querySelector('head > title');
+  if (titleElement) {
+    titleObserver = new MutationObserver(translateTitle);
+    titleObserver.observe(titleElement, { childList: true });
+  }
   const initialNodes = domProcessor.collectNodes();
   translateNodes(initialNodes);
   chrome.runtime.sendMessage({ type: 'UPDATE_MENU_STATE', isTranslating: true });
@@ -113,6 +145,14 @@ function stopTranslation() {
   if (mutationObserver) {
     mutationObserver.disconnect();
     mutationObserver = null;
+  }
+  if (titleObserver) {
+    titleObserver.disconnect();
+    titleObserver = null;
+  }
+  if (originalTitle) {
+    document.title = originalTitle;
+    originalTitle = '';
   }
   chrome.runtime.sendMessage({ type: 'UPDATE_MENU_STATE', isTranslating: false });
 }
